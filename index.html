@@ -64,18 +64,15 @@
                     </form>
                 </div>
                 <div class="sort-ba">
-                    <select id="item_name" name="item_name">
-                        <dl>
-                            <dt>Category 1</dt>
-                                <dd><option value="1">Item 1</option></dd>
-                                <dd><option value="2">Item 2</option></dd>
-                                <dd><option value="3">Item 3</option></dd>
-                            <dt>Category 2</dt>
-                                <dd><option value="4">Item 4</option></dd>
-                                <dd><option value="5">Item 5</option></dd>
-                                <dd><option value="6">Item 6</option></dd>
-                        </dl>
-                    </select>
+                    <form action="">
+                        <select class="select_styled white_select" name="sort_list" id="sort_list">
+                            <option value="1" data-sort="ladd">Latest Added
+                                <option value="2" selected="" data-sort="price">Price High - Low
+                                    <option value="3" data-sort="loc">Location
+                                        <option value="4">Names A-Z
+                                        <option value="5">Names Z-A
+                        </select>
+                    </form>
                 </div>
             </div>
         </div>
