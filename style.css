@@ -174,25 +174,40 @@ form{
   outline:none;
   background-color:#D6E6F2;
 }
-
-.content-items{
-  margin-top: 10px;
+.content-area{
   display: flex;
-        flex-wrap: wrap;
-    /* justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  /* position: relative; */
+}
+.content-categories{
+  background-color: white;
+  flex: 0 0 30%;
+  position: relative;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+.content-items{
+  flex: 0 0 70%;
+  /* margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  margin-left: 58px; */
+    /* justify-content: flex-start; */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 10px; */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
 }
 .product-area{
-  flex: 0 0 14.33%; 
+  /* flex: 0 0 15.33%;  */
   padding: 10px;
   box-sizing: border-box;
 }
 
 .product{
- align-items: center;
-  width: 200px;
+  align-items: center;
+  width: 180px;
   height: auto;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -221,7 +236,7 @@ form{
   margin-top:20px;
   flex-grow: 1;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   overflow: hidden;
