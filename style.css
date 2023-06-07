@@ -252,7 +252,7 @@ body{
   
   .product{
     align-items: center;
-    width: 180px;
+    width: 150px;
     height: auto;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -733,7 +733,7 @@ body{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; 
+    /* flex-wrap: wrap;  */
      align-items: center;
     /* position: relative; */
   }
