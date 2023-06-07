@@ -726,3 +726,33 @@ body{
       text-decoration: underline;
     } 
 }
+@media (max-width: 576px) {
+  
+  .content-area{
+    margin-top: 110px; /* Adjust the margin-top value to create space below the fixed navbar */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+     align-items: center;
+    /* position: relative; */
+  }
+  .content-items{
+    /* flex: 0 0 80%; */
+    /* margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin-left: 58px; */
+      /* justify-content: flex-start; */
+      display: grid;
+      /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      align-items: center;
+      grid-gap: 3px;
+      /* display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap:3px; */
+  }
+}
