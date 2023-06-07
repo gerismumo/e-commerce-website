@@ -252,7 +252,7 @@ body{
   
   .product{
     align-items: center;
-    width: 150px;
+    width: 180px;
     height: auto;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -611,7 +611,7 @@ body{
     
     .product{
       align-items: center;
-      width: 160px;
+      width: 150px;
       height: auto;
       border: 1px solid #ccc;
       border-radius: 5px;
@@ -727,6 +727,18 @@ body{
     } 
 }
 @media (max-width: 576px) {
+  .product{
+    align-items: center;
+    width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffffda;
+  }
   
   .content-area{
     margin-top: 110px; /* Adjust the margin-top value to create space below the fixed navbar */
@@ -750,7 +762,7 @@ body{
       grid-template-columns: repeat(2, 1fr);
       justify-content: center;
       align-items: center;
-      grid-gap: 3px;
+      grid-gap: 2px;
       /* display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       grid-gap:3px; */
