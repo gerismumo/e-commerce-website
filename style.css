@@ -13,7 +13,7 @@ body{
     width: 100%;
 }
 
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 769px){
   .header-area{
     position: fixed;
     top: 0;
@@ -148,7 +148,8 @@ body{
   }
   .search-bar{
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    outline:none;
     padding: 0;
     background-color: white;
     border-radius: 5px;
@@ -357,7 +358,7 @@ body{
   }
 
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
     .header-area{
       position: fixed;
       top: 0;
@@ -498,7 +499,8 @@ body{
     }
     .search-bar{
       display: flex;
-      border: 1px solid black;
+      /* border: 1px solid black; */
+      outline:none;
       padding: 0;
       background-color: white;
       border-radius: 5px;
@@ -543,7 +545,7 @@ body{
       display: flex;
       flex-direction: column;
       /* flex-wrap: wrap; */
-      align-items: center;
+      /* align-items: center; */
       /* position: relative; */
     }
     .content-categories{
@@ -593,10 +595,13 @@ body{
         /* justify-content: flex-start; */
         display: grid;
         /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
-        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         align-items: center;
-        grid-gap: 3px;
+        grid-gap: 3px; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap:3px;
     }
     .product-area{
       /* flex: 0 0 15.33%;  */
@@ -650,8 +655,10 @@ body{
       border: none;
     }
     figcaption{
-      dispaly:flex;
+      display:flex;
       flex-direction: column;
+      align-items: center;
+      padding:10px;
     }
     figcaption p{
         max-width: 100%;
@@ -659,7 +666,6 @@ body{
     }
     figcaption a{
       color: black;
-      word-wrap: break-word;
     }
     figcaption a:hover, a:focus{
       color:#fa6f05ea;
@@ -720,5 +726,3 @@ body{
       text-decoration: underline;
     } 
 }
-
-
