@@ -751,6 +751,9 @@ form{
 .content-categories{
   display:none ;
 }
+.product{
+  width:150px
+}
 .content-items{
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
