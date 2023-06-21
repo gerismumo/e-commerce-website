@@ -148,7 +148,6 @@ body{
   }
   .search-bar{
     display: flex;
-    /* border: 1px solid black; */
     outline:none;
     padding: 0;
     background-color: white;
@@ -189,12 +188,12 @@ body{
     background-color:#D6E6F2;
   }
   .content-area{
-    margin-top: 110px; /* Adjust the margin-top value to create space below the fixed navbar */
+    margin-top: 110px; 
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    /* position: relative; */
+    
   }
   .content-categories{
     background-color: white;
@@ -203,10 +202,10 @@ body{
     align-self: flex-start;
     margin-top: 10px;
     border-radius:  5px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
   }
   .categories-heading{
     display: flex;
@@ -234,12 +233,6 @@ body{
   }
   .content-items{
     flex: 0 0 80%;
-    /* margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:flex-start;
-    margin-left: 58px; */
-      /* justify-content: flex-start; */
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       grid-gap: 5px;
